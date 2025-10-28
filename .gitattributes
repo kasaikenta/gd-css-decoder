@@ -1,0 +1,10 @@
+# --- Tell GitHub linguist how to classify files ---
+*.md linguist-language=Markdown
+src/* linguist-language=C++
+*.sh linguist-language=Shell
+data/** linguist-vendored
+Tables/** linguist-vendored
+gd_css linguist-generated
+LOG_* linguist-generated
+EF_LOG_* linguist-generated
+README linguist-detectable=false
