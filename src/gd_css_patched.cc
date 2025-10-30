@@ -320,9 +320,9 @@ int GF2GF(int g,int GF,int logGF,vector<vector<int>>& BINGF0,vector<vector<int>>
 
   return Bin2GF(BINGF0[g],GF,logGF,BINGF1);
 }
+
 // Function: ComputeAPP
 // Purpose: TODO - describe the function's responsibility succinctly.
-
 void ComputeAPP(std::vector<std::vector<double>> &APP,
 std::vector<std::vector<double>> &ChNtoVN,
 const std::vector<std::vector<double>> &CNtoVNxxx,
@@ -345,9 +345,9 @@ int N, int GF) {
     numB += ColDeg[n];
   }
 }
+
 // Function: computeUnion
 // Purpose: TODO - describe the function's responsibility succinctly.
-
 std::vector<int> computeUnion(const std::vector<std::vector<int>>& Updated_EstmNoise_History) {
 
   std::set<int> unionSet;
