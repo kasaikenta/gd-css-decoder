@@ -86,6 +86,14 @@ Results are also written to log files in the working directory:
 
 ---
 
+## 🙏 Acknowledgment
+
+The decoder implementation presented in this work is based on the classical non-binary LDPC decoder originally developed by Prof. David Declercq, Loïc Barnault, and Charly Poulliat when they were members of the ETIS coding group.  
+During my stay at ETIS, Charly kindly shared the code with me, and I later extended and adapted it for quantum error correction (QEC) using non-binary LDPC codes.  
+I would like to express my sincere gratitude to David, Charly, and the ETIS coding group for their pioneering contributions to non-binary LDPC code design and decoding algorithms, which have provided a solid foundation and lasting inspiration for this research.
+
+---
+
 ## 🧠 Citation
 
 If you use this code in academic work, please cite this repository or the related publications.
